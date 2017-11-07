@@ -27,6 +27,7 @@ public class MultiplicationMatrix {
         for (int i = 0; i < Rank; i++) {
             for (int j = 0; j < Rank; j++) {
                 System.out.printf("%2.2f", A[i][j]);
+                System.out.printf(" ");
             }
             System.out.println();
         }
