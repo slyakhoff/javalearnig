@@ -26,9 +26,7 @@ public class MultiplicationMatrix {
     public static void printMatrix(double[][] A, int Rank){
         for (int i = 0; i < Rank; i++) {
             for (int j = 0; j < Rank; j++) {
-                NumberFormat nf = NumberFormat.getInstance();
-                nf.setMaximumFractionDigits(3);
-                System.out.print(String.format("%.1f\n",Double.toString(A[i][j])));
+                System.out.printf("%2.2f", A[i][j]);
             }
             System.out.println();
         }
