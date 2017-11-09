@@ -5,5 +5,6 @@ public class StdRead {
         Scanner Scan = new Scanner(System.in);
         String line = Scan.nextLine();
         System.out.println(line);
+        System.out.println("done!");
     }
 }
